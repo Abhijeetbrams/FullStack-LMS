@@ -5,11 +5,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity()
+@Entity
 @Table(name="credentials")
 public class Credentials {
 
-	@Id()
+	@Id
 	@Column(name="emailId")
 	private String email_id;
 	
